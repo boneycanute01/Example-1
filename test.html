@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td
+        {
+            border: 1px solid black;
+        }
+        td
+        {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+   <table>
+    <thead>
+        <tr>
+            <th colspan="4">Heading1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>data01</td>
+            <td>data02</td>
+            <td>data03</td>
+            <td>data04</td>
+        </tr>
+        <tr>
+            <td rowspan="3">data11</td>
+            <td>data12</td>
+            <td colspan="2"><center>data13</center></td>
+        </tr>
+        <tr>
+            <td>data21</td>
+            <td>data22</td>
+            <td>data23</td>
+            <td>data24</td>
+            <td rowspan="2">data25</td>
+        </tr>
+        <tr>
+            <td>data31</td>
+            <td>data32</td>
+            <td>data33</td>
+            <td>data34</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>footer Data1</td>
+            <td>footer Data2</td>
+            <td>footer Data3</td>
+            <td>footer Data4</td>
+        </tr>
+    </tfoot>
+   </table>
+</body>
+</html>
